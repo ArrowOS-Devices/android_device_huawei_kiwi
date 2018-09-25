@@ -166,10 +166,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@1.0-service.kiwi
 
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
