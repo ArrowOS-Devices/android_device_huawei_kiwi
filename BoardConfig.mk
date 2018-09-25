@@ -115,8 +115,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
+# Malloc
+MALLOC_SVELTE := true
 
 # Malloc
 MALLOC_SVELTE := true
