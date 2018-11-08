@@ -80,6 +80,9 @@ on post-fs-data
     mkdir /persist/data/tz 0700 system system
     mkdir /data/misc/dts 0770 media audio
 
+    # Set westwood as default TCP Congestion Control
+    write /proc/sys/net/ipv4/tcp_congestion_control westwood
+
 # Start camera server as daemon
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class late_start
