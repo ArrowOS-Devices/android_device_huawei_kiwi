@@ -62,6 +62,9 @@ sys.hwc.gpu_perf_mode=1
 # DRM
 drm.service.enabled=1
 
+# Fingerprint
+ro.fingerprint.cleanup.unused=false
+
 # Log
 log.tag.VM_BMS=WARN
 
