@@ -44,6 +44,7 @@ dalvik.vm.zygotemaxfailedboots=5
 debug.composition.type=c2d
 debug.egl.hw=0
 debug.enable.sglscale=1
+debug.hwui.renderer=opengl
 debug.hwui.use_buffer_age=false
 debug.mdpcomp.logs=0
 debug.mdpcomp.idletime=600
