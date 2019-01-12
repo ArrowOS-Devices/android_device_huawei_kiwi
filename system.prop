@@ -60,6 +60,8 @@ media.stagefright.enable-scan=true
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 persist.media.treble_omx=false
+ro.config.media_vol_steps=20
+ro.config.vc_call_vol_steps=10 
 
 # Net
 persist.data.netmgrd.qos.enable=true
