@@ -30,7 +30,6 @@ persist.camera.cpp.duplication=false
 persist.camera.hal.debug=0
 
 # Display
-dalvik.vm.heapsize=512m
 dalvik.vm.zygotemaxfailedboots=5
 debug.composition.type=c2d
 debug.egl.hw=0
