@@ -97,6 +97,9 @@ on property:sys.boot_completed=1
     write /sys/block/mmcblk0/queue/iostats 1 
     write /sys/block/mmcblk1/queue/read_ahead_kb 128
 
+    #Set westwood as default TCP Congestion Control
+    write /proc/sys/net/ipv4/tcp_congestion_control westwood
+
 # Start camera server as daemon
 service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class late_start
