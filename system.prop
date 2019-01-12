@@ -29,6 +29,9 @@ ro.qualcomm.bt.hci_transport=smd
 persist.camera.cpp.duplication=false
 persist.camera.hal.debug=0
 
+#DRM
+drm.service.enabled=true
+
 # Display
 dalvik.vm.zygotemaxfailedboots=5
 debug.composition.type=c2d
