@@ -10,3 +10,4 @@ ro.confg.hw_efsversion                u:object_r:hw_version_prop:s0
 ro.confg.hw_chipidversion             u:object_r:hw_version_prop:s0
 ro.product.CustCVersion               u:object_r:hw_version_prop:s0
 ro.product.CustDVersion               u:object_r:hw_version_prop:s0
+ro.sf.lcd_density                     u:object_r:sf_lcd_density_prop:s0
