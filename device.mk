@@ -119,9 +119,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.msm8916 \
     libmm-qcamera \
-    Snap \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor
+    Snap
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
@@ -143,9 +141,7 @@ PRODUCT_PACKAGES += \
     gralloc.msm8916 \
     hwcomposer.msm8916 \
     libtinyxml \
-    memtrack.msm8916 \
-    vendor.display.config@1.0 \
-    vendor.display.config@1.0_vendor
+    memtrack.msm8916
 
 # Doze
 PRODUCT_PACKAGES += \
