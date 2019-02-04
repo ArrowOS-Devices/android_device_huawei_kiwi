@@ -244,9 +244,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti
 
-# QPerformance
-PRODUCT_BOOT_JARS += QPerformance
-
 # Radio
 PRODUCT_PACKAGES += \
     qti-telephony-common \
