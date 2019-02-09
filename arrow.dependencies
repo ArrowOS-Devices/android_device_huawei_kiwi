@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_huawei_kiwi",
+    "target_path": "kernel/huawei/kiwi",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  }
+]
