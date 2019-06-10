@@ -1,0 +1,1 @@
+allow surfaceflinger sf_lcd_density_prop:file { read open getattr };
