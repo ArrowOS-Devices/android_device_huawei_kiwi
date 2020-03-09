@@ -35,10 +35,6 @@
             android:name=".DozeSettings"
             android:label="@string/ambient_display_title"
             android:theme="@style/DozeSettings">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
             <meta-data
                 android:name="org.lineageos.settings.summary.receiver"
                 android:value="org.lineageos.settings.doze.DozeReceiver" />
